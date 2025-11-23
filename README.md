@@ -14,7 +14,7 @@ It demonstrates:
 - The app fetches product data, applies discounts, calculates tax, handles errors safely, and displays clean output for the first five products.
 
 # Folder Structure:
-
+```text
 e-commerce-system/
 ├── src/
 │   ├── models/
@@ -25,8 +25,9 @@ e-commerce-system/
 │   │   ├── discountCalculator.ts
 │   │   ├── errorHandler.ts
 │   │   └── taxCalculator.ts
-│   └── main.ts
+│   └── index.ts
 └── tsconfig.json
+```
 
 models/
 - Holds your Product class.
